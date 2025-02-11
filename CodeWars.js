@@ -196,3 +196,14 @@
 // function removeUrlAnchor(url){
 //     return url.split('#')[0]
 //   }
+
+// Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+// function sumTwoSmallestNumbers(numbers) {
+//     // Sort the numbers in ascending order
+//     numbers.sort(function(a, b) { return a - b; });
+    
+//     // Sum the first two elements (the two smallest numbers)
+//     return numbers[0] + numbers[1];
+//   }
+  
