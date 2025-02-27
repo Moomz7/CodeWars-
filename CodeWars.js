@@ -233,3 +233,23 @@
 // function getChar(c){
 //   return String.fromCharCode(c)
 // }
+
+// Given a list of unique numbers sorted in ascending order, return a new list so that the values increment by 1 for each index from the minimum value up to the maximum value (both included).
+
+// function pipeFix(numbers) {
+//     let min = Math.min(...numbers);
+//     let max = Math.max(...numbers);
+//     let result = [];
+    
+//     for (let i = min; i <= max; i++) {
+//       result.push(i);
+//     }
+    
+//     return result;
+//   }
+  
+//   // Example usage:
+//   let nums = [1, 2, 3, 5, 6, 8, 9];
+//   let result = pipeFix(nums);
+//   console.log(result);  // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+  
