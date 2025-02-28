@@ -252,4 +252,13 @@
 //   let nums = [1, 2, 3, 5, 6, 8, 9];
 //   let result = pipeFix(nums);
 //   console.log(result);  // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
-  
+// You will be given an array and a limit value. You must check that all values in the array are below or equal to the limit value. If they are, return true. Else, return false.
+
+// function smallEnough(a, limit) {
+//     for (let i = 0; i < a.length; i++) {
+//       if (a[i] > limit) {
+//         return false;
+//       }
+//     }
+//     return true;
+//   }
