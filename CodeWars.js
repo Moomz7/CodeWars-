@@ -153,6 +153,7 @@
 //     return dna.split('').map(nucleotide => complement[nucleotide]).join('');
 // }
 
+<<<<<<< HEAD
 // Write function bmi that calculates body mass index (bmi = weight / height2).
 
 // if bmi <= 18.5 return "Underweight"
@@ -173,4 +174,234 @@
 //    }else if(weight/(height*height) > 30){
 //       return "Obese"
 //    }
+// }
+=======
+// Given the triangle of consecutive odd numbers:
+
+//              1
+//           3     5
+//        7     9    11
+//    13    15    17    19
+// 21    23    25    27    29
+// ...
+// Calculate the sum of the numbers in the nth row of this triangle (starting at index 1) e.g.: (Input --> Output)
+
+// function rowSumOddNumbers(n) {
+//     return n * n * n
+// }
+
+// In this kata you will create a function that takes in a list and returns a list with the reverse order.
+
+// function reverseList(list) {
+//return list.reverse()
+//}
+
+// In this kata you will create a function that takes a list of non-negative integers and strings and returns a new list with the strings filtered out.
+
+// function filter_list(l) {
+//     return l.filter(item => typeof item === 'number');
+//   }
+
+// Define String.prototype.toAlternatingCase (or a similar function/method such as to_alternating_case/toAlternatingCase/ToAlternatingCase in your selected language; see the initial solution for details) such that each lowercase letter becomes uppercase and each uppercase letter becomes lowercase.
+
+// String.prototype.toAlternatingCase = function () {
+//     return this.split('').map(char => {
+//       if (char === char.toUpperCase()) {
+//         return char.toLowerCase();
+//       } else {
+//         return char.toUpperCase();
+//       }
+//     }).join('');
+//   }
+
+// Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+
+// function removeUrlAnchor(url){
+//     return url.split('#')[0]
+//   }
+
+// Create a function that returns the sum of the two lowest positive numbers given an array of minimum 4 positive integers. No floats or non-positive integers will be passed.
+
+// function sumTwoSmallestNumbers(numbers) {
+//     // Sort the numbers in ascending order
+//     numbers.sort(function(a, b) { return a - b; });
+    
+//     // Sum the first two elements (the two smallest numbers)
+//     return numbers[0] + numbers[1];
+//   }
+  
+// As a part of this Kata, you need to create a function that when provided with a triplet, returns the index of the numerical element that lies between the other two elements.
+
+// The input to the function will be an array of three distinct numbers (Haskell: a tuple).
+
+// function gimme(triplet) {
+//     const sortedTriplet = [...triplet].sort((a, b) => a - b);
+//     const middleValue = sortedTriplet[1]; 
+//     return triplet.indexOf(middleValue); 
+
+// Write a function named setAlarm/set_alarm/set-alarm/setalarm (depending on language) which receives two parameters. The first parameter, employed, is true whenever you are employed and the second parameter, vacation is true whenever you are on vacation.
+
+// The function should return true if you are employed and not on vacation (because these are the circumstances under which you need to set an alarm). It should return false otherwise.
+
+// function setAlarm(employed, vacation){
+//     if(employed == true && vacation == false){
+//       return true
+//     }else{
+//       return false
+//     }
+//   }
+
+// Write a function which takes a number and returns the corresponding ASCII char for that value.
+
+// function getChar(c){
+//   return String.fromCharCode(c)
+// }
+
+// Given a list of unique numbers sorted in ascending order, return a new list so that the values increment by 1 for each index from the minimum value up to the maximum value (both included).
+
+// function pipeFix(numbers) {
+//     let min = Math.min(...numbers);
+//     let max = Math.max(...numbers);
+//     let result = [];
+    
+//     for (let i = min; i <= max; i++) {
+//       result.push(i);
+//     }
+    
+//     return result;
+//   }
+  
+//   // Example usage:
+//   let nums = [1, 2, 3, 5, 6, 8, 9];
+//   let result = pipeFix(nums);
+//   console.log(result);  // Output: [1, 2, 3, 4, 5, 6, 7, 8, 9]
+// You will be given an array and a limit value. You must check that all values in the array are below or equal to the limit value. If they are, return true. Else, return false.
+
+// function smallEnough(a, limit) {
+//     for (let i = 0; i < a.length; i++) {
+//       if (a[i] > limit) {
+//         return false;
+//       }
+//     }
+//     return true;
+//   }
+
+// Create a combat function that takes the player's current health and the amount of damage received, and returns the player's new health. Health can't be less than 0.
+
+// function combat(health, damage) {
+//     if(health > damage){
+//       return health - damage
+//     }else if(health < damage){
+//       return 0
+//     }else{
+      // return 0 
+ //       }
+//   }
+
+// We need a simple function that determines if a plural is needed or not. It should take a number, and return true if a plural should be used with that number or false if not. This would be useful when printing out a string such as 5 minutes, 14 apples, or 1 sun.
+
+// You only need to worry about english grammar rules for this kata, where anything that isn't singular (one of something), it is plural (not one of something).
+
+// All values will be positive integers or floats, or zero.
+
+// function plural(n) {
+//       return n !== 1;
+//     }
+
+// Add the value "codewars" to the websites array.
+// After your code executes the websites array should == ["codewars"]
+
+// var websites = [];
+// websites.push("codewars");
+// console.log(websites);
+
+// Write a function that takes a single non-empty string of only lowercase and uppercase ascii letters (word) as its argument, and returns an ordered list containing the indices of all capital (uppercase) letters in the string.
+
+// var capitals = function (word) {
+// 	let indices = [];
+//     for (let i = 0; i < word.length; i++) {
+//         if (word[i] >= 'A' && word[i] <= 'Z') {
+//             indices.push(i);
+//         }
+//     }
+//     return indices;
+// };
+// This function should test if the factor is a factor of base.
+
+// Return true if it is a factor or false if it is not.
+
+// function checkForFactor (base, factor) {
+//       if(base % factor == 0){
+//         return true
+//       }else{
+//         return false
+//       }
+//     }
+// Complete the function so that it finds the average of the three scores passed to it and returns the letter value associated with that grade.
+
+// Numerical Score	Letter Grade
+// 90 <= score <= 100	'A'
+// 80 <= score < 90	'B'
+// 70 <= score < 80	'C'
+// 60 <= score < 70	'D'
+// 0 <= score < 60	'F'
+// Tested values are all between 0 and 100. Theres is no need to check for negative values or values greater than 100.
+
+// function getGrade (s1, s2, s3) {
+//       if((s1+s2+s3)/3 >= 90 && (s1+s2+s3)/3 <= 100){
+//         return 'A'
+//       }else if((s1+s2+s3)/3 >= 80 && (s1+s2+s3)/3 < 90){
+//         return 'B'
+//       }else if((s1+s2+s3)/3 >= 70 && (s1+s2+s3)/3 < 80){
+//         return 'C'
+//       }else if((s1+s2+s3)/3 >= 60 && (s1+s2+s3)/3 < 70){
+//         return 'D'
+//       }else{
+//         return 'F'
+//       }
+//     }
+
+// Messi is a soccer player with goals in three leagues:
+
+// LaLiga
+// Copa del Rey
+// Champions
+// Complete the function to return his total number of goals in all three leagues.
+
+// function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+//       return laLigaGoals + copaDelReyGoals + championsLeagueGoals
+//     }
+
+// Given a non-negative integer, 3 for example, return a string with a murmur: "1 sheep...2 sheep...3 sheep...". Input will always be valid, i.e. no negative integers.
+
+// const countSheep = num => {
+//       let val = '';
+//       for (let i = 1; i <= num; i++) {
+//         val += `${i} sheep...`;
+//       }
+//       return val;
+//     }
+
+// Write function bmi that calculates body mass index (bmi = weight / height2).
+
+// if bmi <= 18.5 return "Underweight"
+
+// if bmi <= 25.0 return "Normal"
+
+// if bmi <= 30.0 return "Overweight"
+
+// if bmi > 30 return "Obese"
+
+// function bmi(weight, height) {
+//   var val = weight / (height * height);
+//   if(val <= 18.5) {
+//     return 'Underweight';
+//   }
+//   if(val <= 25.0) {
+//     return 'Normal';
+//   }
+//   if(val <= 30.0) {
+//     return 'Overweight';
+//   }
+//   return 'Obese';
 // }
