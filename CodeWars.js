@@ -494,3 +494,12 @@
 //   if(names.length === 3) return names[0] + ", " + names[1] + " and " + names[2] + " like this";
 //   return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
 // }
+
+// Write a function which calculates the average of the numbers in a given array.
+
+// Note: Empty arrays should return 0..
+
+// function find_average(array) {
+//   if (array.length === 0){return 0}
+//  return array.reduce((previousValue, currentValue) => previousValue + currentValue) / array.length
+// }
