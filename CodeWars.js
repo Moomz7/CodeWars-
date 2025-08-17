@@ -841,3 +841,17 @@
 // function repeatStr (n, s) {
 //   return s.repeat(n)
 // }
+
+// Write a function that removes the spaces from the string, then return the resultant string.
+
+// function noSpace(x){return x.split(' ').join('')}
+
+// Take an array and remove every second element from the array. Always keep the first element and start removing with the next element.
+
+// function removeEveryOther(arr){
+//   //your code here
+//   for (var i = 1; i < arr.length;i++){
+//       arr.splice(i,1);
+//   }
+//   return arr;
+// }
