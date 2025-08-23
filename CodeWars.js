@@ -895,4 +895,8 @@
 //   return Math.floor(s*100000/3600);
 // }
 
-Complete the function which converts hex number (given as a string) to a decimal number.
+// Complete the function which converts hex number (given as a string) to a decimal number.
+
+// function hexToDec(hexString){
+//  return  parseInt(hexString, 16);
+// }
