@@ -995,3 +995,9 @@
 // function stringClean(s){
 //   return s.split('').filter((n) => n != parseInt(n)).join('');
 // }
+
+// Given an array of integers, return a new array with each value doubled.
+
+// function maps(x){
+//   return x.map(n => n * 2);
+// }
