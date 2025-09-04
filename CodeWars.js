@@ -1017,3 +1017,9 @@
 // Given a non-negative integer b, write a function which returns an integer d such that the binary representation of b is the same as the decimal representation of d.
 
 // let toBinary = n => +n.toString(2)
+
+// Given a 2D ( nested ) list ( array, vector, .. ) of size m * n, your task is to find the sum of the minimum values in each row.
+
+// function sumOfMinimums(arr) {
+//   return arr.reduce((p, c) => p + Math.min(...c), 0);
+// }
