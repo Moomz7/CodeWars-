@@ -1054,3 +1054,20 @@
 //     return "You need to give your plant " + (40 - mm) + "mm of water"
 //   return "Your plant has had more than enough water for today!" 
 // }
+
+// Your task is to create a function that does four basic mathematical operations.
+
+// The function should take three arguments - operation(string/char), value1(number), value2(number).
+// The function should return result of numbers after applying the chosen operation.
+
+// function basicOp(operation, value1, value2){
+//   if(operation == "+"){
+//     return value1 + value2
+//   }else if(operation == "-"){
+//     return value1 - value2
+//   }else if(operation == "*"){
+//     return value1 * value2
+//   }else if(operation == "/"){
+//     return value1 / value2
+//   }
+//   }
