@@ -433,3 +433,9 @@
 
 // const checkCoupon = (enteredCode, correctCode, currentDate, expirationDate)=> 
 //   enteredCode === correctCode && new Date(currentDate) <= new Date(expirationDate)
+
+// Very simple, given a number (integer / decimal / both depending on the language), find its opposite (additive inverse).
+
+// function opposite(number) {
+//   return(-number);
+// }
