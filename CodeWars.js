@@ -230,3 +230,12 @@
 // function include(arr, item){
 //   return arr.includes(item)
 // }
+
+// Each number should be formatted that it is rounded to two decimal places. You don't need to check whether the input is a valid number because only valid numbers are used in the tests.
+
+// function twoDecimalPlaces(n) {
+  
+//   let result = Number(n.toFixed(2))
+  
+//   return result
+// }
