@@ -330,3 +330,14 @@
 // function pillars(num_pill, dist, width) {
 //   return num_pill>1?(num_pill-1)*dist*100+(num_pill-2)*width:0;
 // }
+
+// Create a function that takes three arguments:
+
+// a value to be evaluated for truthiness.
+// a function to execute if the first argument is truthy.
+// a function to execute if the first argument is falsy.
+// If the first argument evaluates to truthy, call the second argument (a function). If it evaluates to falsy, call the third argument instead (also a function).
+
+// function _if(bool, func1, func2) {
+//   return bool ? func1() : func2()
+// }
