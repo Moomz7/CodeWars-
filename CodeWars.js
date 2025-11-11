@@ -391,3 +391,9 @@
 //   var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
 //   return birds.filter( bird => geese.indexOf(bird) < 0 );
 // };
+
+// Return a new array consisting of elements which are multiple of their own index in input array (length > 1).
+
+// function multipleOfIndex(array) {
+//   return array.filter((x,i) => x == 0 || x % i === 0)
+// }
